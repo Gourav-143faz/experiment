@@ -29,7 +29,7 @@
     height: 60px;
   }
 }
-@media only screen and (orientation: landscape){
+@media only screen and (max-width: 750px){
   #navbar{
     height: 60px;
   }
@@ -38,16 +38,31 @@
 #nav_logo{
   width: 30%;
   height: 100%;
-  
+  float: left;
+
+  display: flex;
+  align-items: center;
+
 }
-#nav_logo h1{
+#n_logo{
+
+  width: 30%;
+  height: 50%;
+  background-image: url(Image/aas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+
+#n_title h1{
   line-height: 70px;
   margin: 0px 0px 0px 10px;
   color: #FF7127;
   letter-spacing: 3px;
   transition: all .3s;
 }
-#nav_logo h1:hover{
+#n_title h1:hover{
   color: white;
   /* font-size: 1.9em; */
 }
@@ -97,7 +112,7 @@
   }
 }
 
-@media only screen and (orientation: landscape){
+@media only screen and (max-width: 750px){
   #nav_logo {
     width: 40%;
    /* border: 1px solid red;*/
@@ -221,7 +236,7 @@
 
 }
 
-@media only screen and (orientation: landscape){
+@media only screen and (max-width: 750px){
     #hero_img{
     height: 170vh;
     justify-content: center;
@@ -277,7 +292,7 @@
   margin: auto;
   padding: 20px;
   width: 95vw;
-  height: 68vh;
+  height: 80vh;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -456,7 +471,7 @@
 }
 
 
-@media only screen and (orientation: landscape){
+@media only screen and (max-width: 750px){
   #welcome_main{
     height: min-content;
     flex-flow: column-reverse nowrap;
@@ -502,7 +517,7 @@
   height: 250px;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  
 
 }
 .in{
@@ -558,7 +573,7 @@
   border-right: 1px solid #FF7129;
 }
 
-@media only screen and (max-width: 520px),(orientation: landscape){
+@media only screen and (max-width: 520px){
   #info{
     height: min-content;
     flex-flow: column nowrap;
@@ -611,8 +626,6 @@
 
 
 
-
-
 #phone{
   display: flex;
   flex-flow: nowrap;
@@ -649,7 +662,7 @@
   /*font-weight: 600;*/
   padding-left: 80px;
 }
-@media only screen and (max-width: 520px), (orientation: landscape){
+@media only screen and (max-width: 520px), (max-width: 750px){
   #phone{
     display: none;
   }
@@ -674,7 +687,7 @@
 
 #footer{
   width: 100vw;
-  height: 520px;
+  height: 60vh;
   background-color: rgb(51,51,51);
 
   display: flex;
@@ -688,53 +701,44 @@
   height: 100%;
 }
 #f1_logo{
-  width: 60%;
-  height: 30%;
-  background-Image: url(Image/aas.png);
-  background-size: cover;
+  width: 55%;
+  height: 35%;
+  background-Image: url(Image/logu.png);
+  background-size: 80% 50%;
   background-repeat: no-repeat;
-  background-position: -50% 50%;
-  margin-top: 20px;
-  margin-left: -61px;
-  border: 1px solid red;
+  background-position: left center;
   
 }
 #f1_para h3{
    color: #aaa;
    font-weight: 200;
    line-height: 30px;
-   border: 1px solid black;
 }
 #f1_para p{
    color: #aaa;
    padding-top: 30px;
    font-weight: 600;   
-   border: 1px solid pink;
 
 }
 #f2{
    margin: 0px 20px;
    width: 30vw;
    height: 100%;
-   border: 1px solid blue;
 }
 #f2_head{
   width: 100%;
   height: 25%;
-  border: 1px solid white;
 }
 #f2_head h1{
   color: white;
   margin-top: 40px;
-  border: 1px solid green;
 }
 #f2_items p{
   line-height: 30px;
   color: #aaa;
-  margin: 10px 0px 10px 30px;
+  margin: 0px 0px 10px 30px;
   text-align: left; 
   /*float: right;*/
-  border: 1px solid tomato;
 
 }
 #f2_items i{
@@ -743,7 +747,6 @@
   float: left;
   font-size: 20px;
   margin: 3px 5px 2px 0px;
-  border: 1px solid yellow;
 }
 #f2 a{
    transition: all .2s;
