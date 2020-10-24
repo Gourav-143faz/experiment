@@ -118,7 +118,7 @@
 #hero_img{
   width: 100vw;
   height: 100vh;
-  background-image: url(image/aa1.jpg);
+  background-Image: url(Image/aa1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 0%;
@@ -658,7 +658,7 @@
   margin: auto;
   width: 90vw;
   height: 85vh;
-  background-image: url(image/aaa.jpg);
+  background-Image: url(Image/aaa.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -690,7 +690,7 @@
 #f1_logo{
   width: 60%;
   height: 30%;
-  background-image: url(image/aas.png);
+  background-Image: url(Image/aas.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -50% 50%;
