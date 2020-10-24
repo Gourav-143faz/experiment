@@ -563,6 +563,7 @@
   height: 30px;
   margin: 200px 0px 0px 60px;
   clear: both;
+  background-color: #FF7129;
   transition: all .3s;
 }
 .info_read:hover{
@@ -570,7 +571,7 @@
 }
 .info_read a{
   text-decoration: none;
-  color: #FF7129;
+  color: white;
 }
 
 #info_1{
